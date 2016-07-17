@@ -1,0 +1,19 @@
+{
+  "name": "jsaturday_dummy",
+  "version": "1.0.0",
+  "description": "Dummy jSaturday module",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/test.js"
+  },
+  "author": "mySaturday.ninja",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "2.2.0",
+    "jsaturday_factory": "git+https://github.com/mysaturday/jsaturday_factory.git"
+  },
+  "devDependencies": {
+    "mocha": "2.5.3",
+    "should": "9.0.2"
+  }
+}
